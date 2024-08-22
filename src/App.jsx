@@ -63,7 +63,11 @@ function App() {
               className="flex flex-col items-center justify-center mt-4"
               onSubmit={handleSubmit}
             >
-              <input type="hidden" name="subject" value="New newsletter subscriber from newsletter"></input>
+              <input
+                type="hidden"
+                name="subject"
+                value="New newsletter subscriber from newsletter"
+              />
               <input
                 type="text"
                 placeholder="Your Name"
